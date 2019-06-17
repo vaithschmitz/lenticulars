@@ -9,9 +9,9 @@ window.addEventListener('deviceorientation', function(event) {
     y = Math.floor(event.beta)
 
     if (x <= -76 && x >= -91 || x >= 75 && x <= 91){
-        $('images').classList.remove('careworker')
+        $('images').classList.remove('teammate')
         $('images').classList.remove('confidant')
-        $('images').classList.add('teammate')
+        $('images').classList.add('careworker')
     }
     else if ( x <= -1 && x >= -75  ){
         $('images').classList.remove('teammate')
@@ -19,9 +19,9 @@ window.addEventListener('deviceorientation', function(event) {
         $('images').classList.add('confidant')
     }
     else{
-        $('images').classList.remove('teammate')
+        $('images').classList.remove('careworker')
         $('images').classList.remove('confidant')
-        $('images').classList.add('careworker')
+        $('images').classList.add('teammate')
 
     }
   });

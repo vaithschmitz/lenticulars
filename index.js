@@ -16,7 +16,7 @@ window.addEventListener('deviceorientation', function(event) {
         $('images').textContent = y
     }
     // else if ( x <= -1 && event.gamma >= -75  )
-    else if ( y >= -5 && y <= 6  ){
+    else if ( y >= -5 && y <= 5  ){
         $('images').classList.remove('teammate')
         $('images').classList.remove('confidant')
         $('images').classList.add('careworker')

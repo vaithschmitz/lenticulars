@@ -16,5 +16,5 @@ accelerometer.start();
 
 
 window.addEventListener('devicemotion', function(event) {
-    $('images').textContent = event.acceleration.x ;
+    $('images').innerHTML = event.acceleration.x ;
   });

@@ -8,15 +8,13 @@ window.addEventListener('deviceorientation', function(event) {
     x = Math.floor(event.gamma)
     y = Math.floor(event.beta)
 
-    // if (x <= -76 && x >= -91 || x >= 75 && x <= 91) vertical
-    if (y <= -6){
+    if (x <= -76 && x >= -91 || x >= 75 && x <= 91) vertical{
         $('images').classList.remove('careworker')
         $('images').classList.remove('confidant')
         $('images').classList.add('teammate')
         $('images').textContent = y
     }
-    // else if ( x <= -1 && event.gamma >= -75  )
-    else if ( y >= -5 && y <= 5  ){
+    else if ( x <= -1 && event.gamma >= -75  ){
         $('images').classList.remove('teammate')
         $('images').classList.remove('confidant')
         $('images').classList.add('careworker')

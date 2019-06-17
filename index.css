@@ -19,9 +19,7 @@ body {
 
 
 #images{
-	width: 100vw;
-	height: 80vh;
-	margin-top: 10vh;
+	padding-top: 10vh;
     box-sizing: border-box;
     transition: all 0.1s ease-out;
 }
@@ -29,17 +27,20 @@ body {
 .teammate{
     background-image: url('./badge01.png');
     background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat:no-repeat; 
+    background-position: center center;
 }
 
 .careworker{
     background-image: url('./badge02.png');
     background-size: contain;
     background-repeat:no-repeat;
+    background-position: center center;
 }
 
 .confidant{
     background-image: url('./badge03.png');
     background-size: contain;
     background-repeat:no-repeat;
+    background-position: center center;
 }

@@ -8,6 +8,6 @@ $('images').style.backgroundColor = 'orange'
 let accelerometer = new Accelerometer({frequency: 60});
 
 accelerometer.addEventListener('reading', e => {
-    $('optimal').textContent = accelerometer.x
+    $('images').textContent = accelerometer.x
 });
 accelerometer.start();

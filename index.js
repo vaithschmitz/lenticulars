@@ -7,7 +7,7 @@ let x = ''
 window.addEventListener('deviceorientation', function(event) {
 
     $('images').textContent =  event.gamma
-    if (event.gamma >= 180){
+    if (event.gamma >= 0){
         $('images').style.backgroundImage =  url('./carers-2.jpg')
     }
     else{

@@ -5,12 +5,13 @@ function $(x){
 let x = ''
 
 window.addEventListener('deviceorientation', function(event) {
+    x = Math.floor(event.gamma)
 
-    if (event.gamma >= 73 && event.gamma <= 89 ){
+    if (x <= -76 && x >= -91 || x >= 75 && x <= 91){
         $('images').textContent =  Math.floor(event.gamma)
         $('images').style.backgroundImage =  "url('./careworker.png')"
     }
-    else if ( event.gamma >= 45 && event.gamma <= 72 ){
+    else if ( x <= -1 && event.gamma >= -75  ){
         $('images').textContent =  Math.floor(event.gamma)
         $('images').style.backgroundImage =  "url('confidant.png')"
     }

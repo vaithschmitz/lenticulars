@@ -16,13 +16,13 @@
 }
 
 .teammate{
-    background-image: url('./teammate.png')
+    background-image: url('./badge01.png')
 }
 
 .careworker{
-    background-image: url('./careworker.png')
+    background-image: url('./badge02.png')
 }
 
 .confidant{
-    background-image: url('./confidant.png')
+    background-image: url('./badge03.png')
 }

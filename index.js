@@ -3,6 +3,6 @@ function $(x){
 }
 
 window.addEventListener('deviceorientation', function(event) {
-    console.log(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);
-    $('images').textContent =  event.alpha
+
+    $('images').textContent =  event.beta
   });

@@ -15,13 +15,13 @@ window.addEventListener('deviceorientation', function(event) {
     }
     else if ( x <= -1 && x >= -75  ){
         $('images').classList.remove('teammate')
-        $('images').classList.remove('confidant')
-        $('images').classList.add('careworker')
+        $('images').classList.remove('careworker')
+        $('images').classList.add('confidant')
     }
     else{
         $('images').classList.remove('teammate')
-        $('images').classList.remove('careworker')
-        $('images').classList.add('confidant')
+        $('images').classList.remove('confidant')
+        $('images').classList.add('careworker')
 
     }
   });

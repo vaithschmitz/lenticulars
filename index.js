@@ -13,7 +13,7 @@ window.addEventListener('deviceorientation', function(event) {
     }
     else{
         $('images').textContent =  "Goodbye"
-        $('images').style.backgroundImage =  "url('confidant.jpg')"
+        $('images').style.backgroundImage =  "url('confidant.png')"
     }
   });
 

@@ -12,3 +12,15 @@
     background-repeat:no-repeat
   
 }
+
+.teammate{
+    background-image: url('./teammate.png')
+}
+
+.careworker{
+    background-image: url('./careworker.png')
+}
+
+.confidant{
+    background-image: url('./confidant.png')
+}

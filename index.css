@@ -20,19 +20,19 @@ body{
 }
 
 .teammate{
-    background-image: url('./badge01.png')
+    background-image: url('./badge01.png');
     background-size: contain;
     background-repeat:no-repeat;
 }
 
 .careworker{
-    background-image: url('./badge02.png')
+    background-image: url('./badge02.png');
     background-size: contain;
     background-repeat:no-repeat;
 }
 
 .confidant{
-    background-image: url('./badge03.png')
+    background-image: url('./badge03.png');
     background-size: contain;
     background-repeat:no-repeat;
 }

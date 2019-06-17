@@ -2,7 +2,17 @@ function $(x){
     return document.getElementById(x)
 }
 
+let x = ''
+
 window.addEventListener('deviceorientation', function(event) {
 
-    $('images').textContent =  event.beta
+    $('images').textContent =  event.gamma
+    if (event.gamma >= 180){
+        $('images').style.backgroundImage =  url('./carers-2.jpg')
+    }
+    else{
+        $('images').style.backgroundImage =  url('./carers-1.jpg')
+    }
   });
+
+

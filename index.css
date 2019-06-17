@@ -1,11 +1,9 @@
 
 body{
     height: 100vh;
-    width: 100vw
-}
-body{
+    width: 100vw;
     background-image: url('./fabric.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat:no-repeat;
 }
 
